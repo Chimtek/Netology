@@ -285,3 +285,4 @@ print()
 get_avarage_grade_course(Lecturer.lectureres, 'Базы данных')
 get_avarage_grade_course(Lecturer.lectureres, 'Web')
 print()
+
