@@ -15,8 +15,6 @@ while all_data:
     result_str += str(all_data[min_len_value][0])+'\n'
     for i in all_data[min_len_value][1]:
         result_str += i.strip('\n') + '\n'
-        # with open('result.txt', 'a', encoding='utf-8') as fl:
-        #     fl.write(i)
     del all_data[min_len_value]
 
 with open('result.txt', 'w', encoding='utf-8') as fl:
